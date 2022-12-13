@@ -15,8 +15,8 @@ class UserController extends Controller
      */
     public function index()
     {
-//        $user = User::latest()->paginate(10);
-//        return UserResource::collection($user);
+        $user = User::latest()->paginate(10);
+        return UserResource::collection($user);
     }
 
     public function FetchUsers(){

@@ -5,7 +5,7 @@
 
     <user-component></user-component>
 
-{{--<div class="container">--}}
+<div class="container">
 {{--        <div class="row justify-content-center">--}}
 {{--        <div class="col-md-8">--}}
 {{--            <div class="card">--}}
@@ -23,17 +23,17 @@
 {{--            </div>--}}
 {{--        </div>--}}
 {{--    </div>--}}
-{{--    <div class="row justify-content-center">--}}
-{{--        <div class="col-md-8">--}}
-{{--            <div class="card">--}}
-{{--                <div class="card-body">--}}
-{{--                        To se user list--}}
-{{--                    <a href="{{route('getUser')}}">--}}
-{{--                        <button>click here</button>--}}
-{{--                    </a>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-{{--</div>--}}
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                        To se user list
+                    <a href="{{route('user')}}">
+                        <button>click here</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 @endsection

@@ -25,4 +25,5 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 
 ROUTE::get('/get_all_users', [App\Http\Controllers\UserController::class, 'FetchUsers'])->name('getUser');
+ROUTE::get('/json_users', [App\Http\Controllers\UserController::class, 'index'])->name('user');
 
