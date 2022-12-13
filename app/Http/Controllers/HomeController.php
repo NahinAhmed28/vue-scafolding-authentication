@@ -25,7 +25,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $user = UserResource::collection(User::all());
         return view('home');
     }
 }
