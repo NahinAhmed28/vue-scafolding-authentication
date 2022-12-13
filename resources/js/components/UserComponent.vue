@@ -28,7 +28,6 @@
                 <div class="card">
                     <div class="card-header">
                         <h3 class="card-title">Users Table</h3>
-
                     </div>
                     <!-- /.card-header -->
                     <div class="card-body table-responsive p-0">
@@ -39,16 +38,14 @@
                                 <th>Name</th>
                                 <th>Email</th>
 <!--                                <th>Type</th>-->
-<!--                                <th>Registered At</th>-->
+                                <th>Registered At</th>
 <!--                                <th>Modify</th>-->
                             </tr>
-
-
                             <tr v-for="user in users" :key="user.id">
                                 <td>{{ user.id }} </td>
                                 <td>{{ user.name }} </td>
                                 <td>{{ user.email }} </td>
-<!--                                <td>{{ user.created_at }} </td>-->
+                                <td>{{ user.created_at }} </td>
                             </tr>
                             </tbody>
                         </table>
