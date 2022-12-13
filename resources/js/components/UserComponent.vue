@@ -72,7 +72,6 @@ export default {
         loadUsers() {
             axios.get('/get_all_users').then((res)=>{
                 this.users = res.data
-                //do a console.log(res.data) to ensure you are getting the users collection
             }).catch((err) => {
                 console.log(err)
             });
