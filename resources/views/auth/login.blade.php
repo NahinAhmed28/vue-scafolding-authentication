@@ -51,13 +51,13 @@
                             </div>
                         </div>
 
-                        <!-- Google reCaptcha v2 -->
-                        {!! htmlFormSnippet() !!}
-                        @if($errors->has('g-recaptcha-response'))
-                            <div>
-                                <small class="text-danger">{{ $errors->first('g-recaptcha-response') }}</small>
-                            </div>
-                        @endif
+{{--                        <!-- Google reCaptcha v2 -->--}}
+{{--                        {!! htmlFormSnippet() !!}--}}
+{{--                        @if($errors->has('g-recaptcha-response'))--}}
+{{--                            <div>--}}
+{{--                                <small class="text-danger">{{ $errors->first('g-recaptcha-response') }}</small>--}}
+{{--                            </div>--}}
+{{--                        @endif--}}
 
                         <div class="row mb-0">
                             <div class="col-md-8 offset-md-4">
